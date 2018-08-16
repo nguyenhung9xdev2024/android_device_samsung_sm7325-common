@@ -1364,4 +1364,9 @@
 
     <!-- the number of the max cached processes in the system. -->
     <integer name="config_customizedMaxCachedProcesses">64</integer>
+
+    <!-- Amount of time it takes for the light sensor to warm up in milliseconds.
+         For this time after the screen turns on, the Power Manager
+         will not debounce light sensor readings -->
+    <integer name="config_lightSensorWarmupTime">200</integer>
 </resources>
