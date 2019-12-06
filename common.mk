@@ -16,6 +16,9 @@
 
 COMMON_PATH := device/samsung/sm7325-common
 
+# Setup dalvik vm configs
+$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
+
 DEVICE_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay
 
 # Partitions
