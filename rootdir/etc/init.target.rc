@@ -225,3 +225,9 @@ service fan_control_turn_off /vendor/bin/fan_control 0
 on property:persist.vendor.radio.port_index=""
     setprop sys.usb.config adb
 
+service adsprpcd /vendor/bin/adsprpcd
+   class main
+   user media
+   group media
+   disabled
+   
