@@ -1,3 +1,6 @@
+# HWUI
+debug.hwui.skia_atrace_enabled=false
+
 # RIL
 ro.vendor.qti.va_aosp.support=1
 
