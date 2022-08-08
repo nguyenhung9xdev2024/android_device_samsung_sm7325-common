@@ -77,6 +77,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl.samsung-sm7325 \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.soundtrigger@2.2-impl \
+    audioadsprpcd \
     audio.r_submix.default \
     audio.usb.default \
     libtinycompress \
