@@ -156,6 +156,7 @@ debug.sf.early_phase_offset_ns=100000
 debug.sf.early_app_phase_offset_ns=100000
 debug.sf.early_gl_phase_offset_ns=100000
 debug.sf.early_gl_app_phase_offset_ns=100000
+debug.sf.frame_rate_multiple_threshold=60
 debug.sf.high_fps_early_phase_offset_ns=100000
 debug.sf.high_fps_early_gl_phase_offset_ns=100000
 debug.sf.high_fps_late_app_phase_offset_ns=100000
