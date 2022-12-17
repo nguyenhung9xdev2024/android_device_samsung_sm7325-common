@@ -6,3 +6,4 @@ sec_secure_touch.ko
 sec_common_fn.ko
 stm_ts.ko
 synaptics_ts.ko
+adsp_loader_dlkm.ko
