@@ -4,6 +4,8 @@ dalvik.vm.image-dex2oat-filter=everything
 
 # HWUI
 debug.hwui.skia_atrace_enabled=false
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=20
 
 # RIL
 ro.vendor.qti.va_aosp.support=1
