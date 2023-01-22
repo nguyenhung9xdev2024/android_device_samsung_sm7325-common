@@ -22,7 +22,10 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 DEVICE_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay
 
 # Dex
+PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
+PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+USE_DEX2OAT_DEBUG := false
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false

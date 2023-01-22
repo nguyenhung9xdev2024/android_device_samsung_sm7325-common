@@ -1,2 +1,6 @@
+# Dexopt
+pm.dexopt.first-boot=quicken
+pm.dexopt.bg-dexopt=everything
+
 # IMS
 ro.telephony.block_binder_thread_on_incoming_calls=false
