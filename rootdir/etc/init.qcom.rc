@@ -441,6 +441,9 @@ on post-fs-data
     #Create dir for TUI
     mkdir /data/vendor/tui 0700 system drmrpc
 
+    # Prevents permission denied error for telephony
+    chmod 0644 /proc/cmdline
+
 service nqnfcinfo /system/vendor/bin/nqnfcinfo
     class late_start
     group nfc
