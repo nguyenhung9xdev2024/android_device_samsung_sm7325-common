@@ -1333,4 +1333,7 @@
 
     <!-- Default refresh rate while the device has high brightness mode enabled for HDR. -->
     <integer name="config_defaultRefreshRateInHbmHdr">60</integer>
+
+    <!-- Auto-brightness sensor type string -->
+    <string name="config_displayLightSensorType">"android.sensor.light"</string>
 </resources>
