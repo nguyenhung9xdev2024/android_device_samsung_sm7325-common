@@ -124,6 +124,7 @@ ro.crypto.volume.metadata.method=dm-default-key
 ro.hardware.vulkan=adreno
 ro.hardware.egl=adreno
 ro.opengles.version=196610
+ro.hwui.render_ahead=10
 ro.surface_flinger.enable_layer_caching=true
 ro.surface_flinger.has_wide_color_display=true
 ro.surface_flinger.has_HDR_display=true
