@@ -757,11 +757,6 @@ vendor/lib64/libqcodec2_utils.so
 vendor/lib/libqcodec2_v4l2codec.so
 vendor/lib64/libqcodec2_v4l2codec.so
 
-# NFC
-vendor/etc/nfc/sec_s3nrn4v_hwreg.bin
-vendor/etc/nfc/sec_s3nrn4v_swreg.bin
-vendor/firmware/nfc/sec_s3nrn4v_firmware.bin
-
 # OMX
 vendor/lib/libdsd2pcm.so
 vendor/lib/libOmxApeDec.so
