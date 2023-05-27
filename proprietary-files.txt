@@ -724,13 +724,6 @@ vendor/lib64/libqti-iopd-client.so
 
 # IPA
 vendor/etc/init/ipa_fws.rc
-vendor/firmware/yupik_ipa_fws.b00
-vendor/firmware/yupik_ipa_fws.b01
-vendor/firmware/yupik_ipa_fws.b02
-vendor/firmware/yupik_ipa_fws.b03
-vendor/firmware/yupik_ipa_fws.b04
-vendor/firmware/yupik_ipa_fws.elf
-vendor/firmware/yupik_ipa_fws.mdt
 
 # Keymaster
 vendor/lib64/libkeymaster_helper.so
@@ -1190,15 +1183,6 @@ vendor/bin/hw/macloader
 vendor/lib/libqsap_sdk.so
 vendor/lib64/libqsap_sdk.so
 vendor/firmware/Data.msc
-vendor/firmware/wpss.b00
-vendor/firmware/wpss.b01
-vendor/firmware/wpss.b02
-vendor/firmware/wpss.b03
-vendor/firmware/wpss.b04
-vendor/firmware/wpss.b05
-vendor/firmware/wpss.b06
-vendor/firmware/wpss.b07
-vendor/firmware/wpss.mdt
 vendor/firmware/qca6750/bdwlan.elf
 vendor/firmware/qca6750/bdwlan.elf10
 vendor/firmware/qca6750/qdss_trace_config.cfg
