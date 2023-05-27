@@ -153,14 +153,22 @@ PRODUCT_PACKAGES += \
     memtrack.default \
     gralloc.default \
     android.hardware.renderscript@1.0-impl \
+    libsdmcore \
+    libsdmutils \
     libtinyxml \
     libtinyxml2 \
+    libvulkan \
     libqdMetaData \
+    libqdMetaData.system \
     libdisplayconfig.qti \
+    libdisplayconfig.system.qti \
     vendor.qti.hardware.display.mapper@1.1.vendor \
     vendor.qti.hardware.display.mapper@2.0.vendor \
     vendor.qti.hardware.display.mapper@3.0.vendor \
     vendor.qti.hardware.display.mapper@4.0.vendor \
+    vendor.display.config@1.15 \
+    vendor.display.config@1.15.vendor \
+    vendor.display.config@2.0 \
     vendor.display.config@2.0.vendor \
     AdvancedDisplay
 
