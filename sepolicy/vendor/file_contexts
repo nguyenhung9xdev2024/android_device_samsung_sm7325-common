@@ -24,7 +24,7 @@
 
 # NFC
 /dev/sec-nfc                                 u:object_r:nfc_device:s0
-/vendor/bin/hw/android\.hardware\.nfc_snxxx@1\.2-service                u:object_r:hal_nfc_default_exec:s0
+/vendor/bin/hw/android\.hardware\.nfc-service\.nxp                 u:object_r:hal_nfc_default_exec:s0
 
 # qos
 /dev/network_throughput                      u:object_r:radio_qos_device:s0
