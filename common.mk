@@ -191,8 +191,8 @@ PRODUCT_PACKAGES += \
     fastbootd
 
 # FastCharge
-PRODUCT_PACKAGES += \
-    vendor.lineage.fastcharge@1.0-service.samsung
+#PRODUCT_PACKAGES += \
+#    vendor.lineage.fastcharge@1.0-service.samsung
 
 # Fingerprint
 PRODUCT_PACKAGES += \
