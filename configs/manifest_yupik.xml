@@ -403,19 +403,6 @@
         <fqname>@2.0::ISehChannel/imsd</fqname>
         <fqname>@2.0::ISehChannel/imsd2</fqname>
     </hal>
-    <hal format="hidl">
-        <name>vendor.lineage.touch</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IGloveMode</name>
-            <instance>default</instance>
-        </interface>
-        <interface>
-            <name>ITouchscreenGesture</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
     <!-- NFC HAL service -->
     <hal format="hidl">
         <name>android.hardware.nfc</name>
